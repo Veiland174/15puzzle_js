@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Barly_Break</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="wrapper">
+    <div><label for="gameSize">Введите размер поля: </label><input type="number" name="gameSize" id="gameSize" min="3" max="10" value="4"/></div>
+    <div id="startGame" onclick="newGame()" class="button">начать игру</div>
+    <!-- <div id="winGame" onclick="godMode()" class="button">GOD MODE</div> -->
+    <div id="counterBox">
+        <div>Количество ходов</div>
+        <div id="counter">0</div>
+    </div>
+    <div id="timerBox">
+        <div>время</div>
+        <div id="timer">0</div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+div {
+    margin: 20px auto;
+}
+
+#wrapper {
+    box-sizing: border-box;
+    width: 800px;
+    text-align: center;
+    margin: 50px auto;
+    border: 3px inset #9d662a;
+    background: #d0a97e;
+    color: #ffffff;
+    font-size: 20px;
+    position: relative;
+}
+
+.button {
+    padding: 7px 15px;
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+    background: #3396ff;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px #000000;
+    position: relative;
+    border-radius: 10px;
+}
+
+.button:active {
+    top: 1px;
+    box-shadow: none;
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #3396ff;
+    width: 50px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#gameField {
+    border: 1px solid #3396ff;
+}
+
+.cell {
+    display: inline-block;
+    background: #ffffff;
+    border: 1px solid #3396ff;
+    box-sizing: border-box;
+    color: #3396ff;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.cell.empty {
+    color: transparent;
+    box-shadow: inset 0px 0px 20px #3396ff;
+}
+
+#counterBox, #timerBox {
+    position: absolute;
+    right: 10px;
+    top: 35%;
+    padding: 0px 10px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    width: 180px;
+}
+
+#timerBox {
+    top: 20%;
+}
